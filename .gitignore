@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+# Credentials and local data
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+data/
+private/
+exports/
+*.sqlite*
+*.db
+*.log
+# Machine-specific files
+.DS_Store
+.idea/
+.vscode/
+.codex/
+.agents/
+.aws/
